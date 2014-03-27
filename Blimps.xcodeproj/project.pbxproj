@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D3D041518E3B4F700D05B75 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D3D041418E3B4F700D05B75 /* Cocoa.framework */; };
+		4D3D041F18E3B4F700D05B75 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D3D041D18E3B4F700D05B75 /* InfoPlist.strings */; };
+		4D3D042118E3B4F700D05B75 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3D042018E3B4F700D05B75 /* main.m */; };
+		4D3D042518E3B4F700D05B75 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 4D3D042318E3B4F700D05B75 /* Credits.rtf */; };
+		4D3D042818E3B4F700D05B75 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3D042718E3B4F700D05B75 /* AppDelegate.m */; };
+		4D3D042B18E3B4F700D05B75 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D3D042918E3B4F700D05B75 /* MainMenu.xib */; };
+		4D3D043318E3B4F700D05B75 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D3D043218E3B4F700D05B75 /* SenTestingKit.framework */; };
+		4D3D043418E3B4F700D05B75 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D3D041418E3B4F700D05B75 /* Cocoa.framework */; };
+		4D3D043C18E3B4F700D05B75 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D3D043A18E3B4F700D05B75 /* InfoPlist.strings */; };
+		4D3D043F18E3B4F700D05B75 /* BlimpsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3D043E18E3B4F700D05B75 /* BlimpsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D3D043518E3B4F700D05B75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D3D040718E3B4F700D05B75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D3D040F18E3B4F700D05B75;
+			remoteInfo = Blimps;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4D3D041018E3B4F700D05B75 /* Blimps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Blimps.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D3D041418E3B4F700D05B75 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		4D3D041718E3B4F700D05B75 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		4D3D041818E3B4F700D05B75 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		4D3D041918E3B4F700D05B75 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4D3D041C18E3B4F700D05B75 /* Blimps-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Blimps-Info.plist"; sourceTree = "<group>"; };
+		4D3D041E18E3B4F700D05B75 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4D3D042018E3B4F700D05B75 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4D3D042218E3B4F700D05B75 /* Blimps-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Blimps-Prefix.pch"; sourceTree = "<group>"; };
+		4D3D042418E3B4F700D05B75 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		4D3D042618E3B4F700D05B75 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4D3D042718E3B4F700D05B75 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4D3D042A18E3B4F700D05B75 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		4D3D043118E3B4F700D05B75 /* BlimpsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlimpsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D3D043218E3B4F700D05B75 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		4D3D043918E3B4F700D05B75 /* BlimpsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BlimpsTests-Info.plist"; sourceTree = "<group>"; };
+		4D3D043B18E3B4F700D05B75 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4D3D043D18E3B4F700D05B75 /* BlimpsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlimpsTests.h; sourceTree = "<group>"; };
+		4D3D043E18E3B4F700D05B75 /* BlimpsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlimpsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D3D040D18E3B4F700D05B75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D3D041518E3B4F700D05B75 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D3D042D18E3B4F700D05B75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D3D043318E3B4F700D05B75 /* SenTestingKit.framework in Frameworks */,
+				4D3D043418E3B4F700D05B75 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D3D040518E3B4F700D05B75 = {
+			isa = PBXGroup;
+			children = (
+				4D3D041A18E3B4F700D05B75 /* Blimps */,
+				4D3D043718E3B4F700D05B75 /* BlimpsTests */,
+				4D3D041318E3B4F700D05B75 /* Frameworks */,
+				4D3D041118E3B4F700D05B75 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D3D041118E3B4F700D05B75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D3D041018E3B4F700D05B75 /* Blimps.app */,
+				4D3D043118E3B4F700D05B75 /* BlimpsTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D3D041318E3B4F700D05B75 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D3D041418E3B4F700D05B75 /* Cocoa.framework */,
+				4D3D043218E3B4F700D05B75 /* SenTestingKit.framework */,
+				4D3D041618E3B4F700D05B75 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4D3D041618E3B4F700D05B75 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D3D041718E3B4F700D05B75 /* AppKit.framework */,
+				4D3D041818E3B4F700D05B75 /* CoreData.framework */,
+				4D3D041918E3B4F700D05B75 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		4D3D041A18E3B4F700D05B75 /* Blimps */ = {
+			isa = PBXGroup;
+			children = (
+				4D3D042618E3B4F700D05B75 /* AppDelegate.h */,
+				4D3D042718E3B4F700D05B75 /* AppDelegate.m */,
+				4D3D042918E3B4F700D05B75 /* MainMenu.xib */,
+				4D3D041B18E3B4F700D05B75 /* Supporting Files */,
+			);
+			path = Blimps;
+			sourceTree = "<group>";
+		};
+		4D3D041B18E3B4F700D05B75 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D3D041C18E3B4F700D05B75 /* Blimps-Info.plist */,
+				4D3D041D18E3B4F700D05B75 /* InfoPlist.strings */,
+				4D3D042018E3B4F700D05B75 /* main.m */,
+				4D3D042218E3B4F700D05B75 /* Blimps-Prefix.pch */,
+				4D3D042318E3B4F700D05B75 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4D3D043718E3B4F700D05B75 /* BlimpsTests */ = {
+			isa = PBXGroup;
+			children = (
+				4D3D043D18E3B4F700D05B75 /* BlimpsTests.h */,
+				4D3D043E18E3B4F700D05B75 /* BlimpsTests.m */,
+				4D3D043818E3B4F700D05B75 /* Supporting Files */,
+			);
+			path = BlimpsTests;
+			sourceTree = "<group>";
+		};
+		4D3D043818E3B4F700D05B75 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D3D043918E3B4F700D05B75 /* BlimpsTests-Info.plist */,
+				4D3D043A18E3B4F700D05B75 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D3D040F18E3B4F700D05B75 /* Blimps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D3D044218E3B4F700D05B75 /* Build configuration list for PBXNativeTarget "Blimps" */;
+			buildPhases = (
+				4D3D040C18E3B4F700D05B75 /* Sources */,
+				4D3D040D18E3B4F700D05B75 /* Frameworks */,
+				4D3D040E18E3B4F700D05B75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Blimps;
+			productName = Blimps;
+			productReference = 4D3D041018E3B4F700D05B75 /* Blimps.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4D3D043018E3B4F700D05B75 /* BlimpsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D3D044518E3B4F700D05B75 /* Build configuration list for PBXNativeTarget "BlimpsTests" */;
+			buildPhases = (
+				4D3D042C18E3B4F700D05B75 /* Sources */,
+				4D3D042D18E3B4F700D05B75 /* Frameworks */,
+				4D3D042E18E3B4F700D05B75 /* Resources */,
+				4D3D042F18E3B4F700D05B75 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D3D043618E3B4F700D05B75 /* PBXTargetDependency */,
+			);
+			name = BlimpsTests;
+			productName = BlimpsTests;
+			productReference = 4D3D043118E3B4F700D05B75 /* BlimpsTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D3D040718E3B4F700D05B75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = Raymond;
+			};
+			buildConfigurationList = 4D3D040A18E3B4F700D05B75 /* Build configuration list for PBXProject "Blimps" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4D3D040518E3B4F700D05B75;
+			productRefGroup = 4D3D041118E3B4F700D05B75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D3D040F18E3B4F700D05B75 /* Blimps */,
+				4D3D043018E3B4F700D05B75 /* BlimpsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D3D040E18E3B4F700D05B75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D3D041F18E3B4F700D05B75 /* InfoPlist.strings in Resources */,
+				4D3D042518E3B4F700D05B75 /* Credits.rtf in Resources */,
+				4D3D042B18E3B4F700D05B75 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D3D042E18E3B4F700D05B75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D3D043C18E3B4F700D05B75 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4D3D042F18E3B4F700D05B75 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D3D040C18E3B4F700D05B75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D3D042118E3B4F700D05B75 /* main.m in Sources */,
+				4D3D042818E3B4F700D05B75 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D3D042C18E3B4F700D05B75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D3D043F18E3B4F700D05B75 /* BlimpsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D3D043618E3B4F700D05B75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D3D040F18E3B4F700D05B75 /* Blimps */;
+			targetProxy = 4D3D043518E3B4F700D05B75 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4D3D041D18E3B4F700D05B75 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D3D041E18E3B4F700D05B75 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4D3D042318E3B4F700D05B75 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D3D042418E3B4F700D05B75 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		4D3D042918E3B4F700D05B75 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D3D042A18E3B4F700D05B75 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		4D3D043A18E3B4F700D05B75 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D3D043B18E3B4F700D05B75 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D3D044018E3B4F700D05B75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4D3D044118E3B4F700D05B75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4D3D044318E3B4F700D05B75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Blimps/Blimps-Prefix.pch";
+				INFOPLIST_FILE = "Blimps/Blimps-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4D3D044418E3B4F700D05B75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Blimps/Blimps-Prefix.pch";
+				INFOPLIST_FILE = "Blimps/Blimps-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4D3D044618E3B4F700D05B75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Blimps.app/Contents/MacOS/Blimps";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Blimps/Blimps-Prefix.pch";
+				INFOPLIST_FILE = "BlimpsTests/BlimpsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		4D3D044718E3B4F700D05B75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Blimps.app/Contents/MacOS/Blimps";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Blimps/Blimps-Prefix.pch";
+				INFOPLIST_FILE = "BlimpsTests/BlimpsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D3D040A18E3B4F700D05B75 /* Build configuration list for PBXProject "Blimps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D3D044018E3B4F700D05B75 /* Debug */,
+				4D3D044118E3B4F700D05B75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D3D044218E3B4F700D05B75 /* Build configuration list for PBXNativeTarget "Blimps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D3D044318E3B4F700D05B75 /* Debug */,
+				4D3D044418E3B4F700D05B75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4D3D044518E3B4F700D05B75 /* Build configuration list for PBXNativeTarget "BlimpsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D3D044618E3B4F700D05B75 /* Debug */,
+				4D3D044718E3B4F700D05B75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D3D040718E3B4F700D05B75 /* Project object */;
+}
