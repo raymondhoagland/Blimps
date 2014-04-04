@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D166B9618E6A87C00D88D07 /* spot.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D166B9518E6A87C00D88D07 /* spot.png */; };
 		4D3D041518E3B4F700D05B75 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D3D041418E3B4F700D05B75 /* Cocoa.framework */; };
 		4D3D041F18E3B4F700D05B75 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D3D041D18E3B4F700D05B75 /* InfoPlist.strings */; };
 		4D3D042118E3B4F700D05B75 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3D042018E3B4F700D05B75 /* main.m */; };
@@ -30,6 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D166B9518E6A87C00D88D07 /* spot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spot.png; sourceTree = "<group>"; };
 		4D3D041018E3B4F700D05B75 /* Blimps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Blimps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D3D041418E3B4F700D05B75 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		4D3D041718E3B4F700D05B75 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -125,6 +127,7 @@
 		4D3D041B18E3B4F700D05B75 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4D166B9518E6A87C00D88D07 /* spot.png */,
 				4D3D041C18E3B4F700D05B75 /* Blimps-Info.plist */,
 				4D3D041D18E3B4F700D05B75 /* InfoPlist.strings */,
 				4D3D042018E3B4F700D05B75 /* main.m */,
@@ -227,6 +230,7 @@
 				4D3D041F18E3B4F700D05B75 /* InfoPlist.strings in Resources */,
 				4D3D042518E3B4F700D05B75 /* Credits.rtf in Resources */,
 				4D3D042B18E3B4F700D05B75 /* MainMenu.xib in Resources */,
+				4D166B9618E6A87C00D88D07 /* spot.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,7 +346,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 			};
@@ -364,7 +368,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -376,6 +380,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Blimps/Blimps-Prefix.pch";
 				INFOPLIST_FILE = "Blimps/Blimps-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -388,6 +393,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Blimps/Blimps-Prefix.pch";
 				INFOPLIST_FILE = "Blimps/Blimps-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -402,6 +408,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Blimps/Blimps-Prefix.pch";
 				INFOPLIST_FILE = "BlimpsTests/BlimpsTests-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
@@ -417,6 +424,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Blimps/Blimps-Prefix.pch";
 				INFOPLIST_FILE = "BlimpsTests/BlimpsTests-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
@@ -442,6 +450,7 @@
 				4D3D044418E3B4F700D05B75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4D3D044518E3B4F700D05B75 /* Build configuration list for PBXNativeTarget "BlimpsTests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +459,7 @@
 				4D3D044718E3B4F700D05B75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
